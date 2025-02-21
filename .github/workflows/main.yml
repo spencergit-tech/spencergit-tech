@@ -2,15 +2,11 @@
   # uses: Platane/snk@a69d1dbca7a94c2ef0edf10dcd9e19982d74dd39
   uses: Platane/snk@v3.3.0
   with:
-    # github user name
     github_user_name: spencergit-tech
     # github token used to fetch the contribution calendar. Default to the action token if empty.
     github_token: # optional, default is ${{ github.token }}
     # list of files to generate.
 
-
- 
-
-  
     outputs: dark.svg?palette=github-dark&color_snake=blue
           
+rootkey: on 
